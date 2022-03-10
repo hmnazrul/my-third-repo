@@ -45,11 +45,19 @@ display: flex;
     margin-left: 5%;
     margin-right: 5%;
     border: 10px solid;
-    padding-left: 20px;}
+    padding-left: 20px;
+    border-radius: 5px;
+}
     .area{
         background-image: url(images/exp-bg.png);
         background-repeat: no-repeat;
         background-position: left;
         
+    }
+    #gradient{
+        border-imag left: gradient(blue red);
+    }
+    footer{
+        text-align: center;
     }
     
