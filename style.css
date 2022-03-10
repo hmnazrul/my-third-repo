@@ -1,4 +1,4 @@
-section{
+.flax-con{
     display: flex;
     margin-bottom: 100px;
 }
@@ -24,7 +24,7 @@ body{
 h1{
     font-size: 50px;
 }
-#name{
+.name{
     color: orangered;
 }
 .top-banner{
@@ -35,4 +35,21 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}.flax{
+display: flex;
 }
+.shadow{
+    box-shadow: 5px 5px 50px red;
+    width: 40%;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 10px solid;
+    padding-left: 20px;}
+    .area{
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        
+    }
+    
